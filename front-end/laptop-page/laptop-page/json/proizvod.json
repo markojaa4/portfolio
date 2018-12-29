@@ -1,0 +1,30 @@
+[
+  {
+    "proizvod":"Laptop Acer A315-53G",
+    "opis" : "Obavljanje osnovnih svakodnevnih zadataka sa stilom. Fantastičan skladišni prostor od 1TB. Ekran Full HD rezolucije. Odlike su koje Vas neće ostaviti ravnodušnim!",
+    "cena": "51.990 din.",
+    "porez" : "PDV 20% je uračunat u cenu",
+    "tehnički-podaci":[
+      { "Šifra":"8637733" ,
+        "EAN":"4710180032505" ,
+        "Model":"Acer A315-53G" ,
+        "Procesor":"Intel® Core™ i3-7020U Processor, 2.3GHz, sa 3MB keš memorije, 2 cores, 4 threads" ,
+        "Memorija":"6GB DDR4 SDRAM" ,
+        "HDD":"1 TB Serial ATA" ,
+        "Grafička ":"NVIDIA® GeForce® MX130 sa 2GB GDDR5 sopstvene memorije" ,
+        "Ekran":"15.6'" ,
+        "Tip ekrana":"LCD, ComfyView, Full HD, LED",
+        "Optički uređaj":"Nema" ,
+        "Mreža":"WiFi IEEE 802.11ac, Gigabit Ethernet" ,
+        "Povezivanje":"HDMI, 2xUSB 2.0, USB 3.0, RJ-45" ,
+        "unos":"Tastatura TouchPad" ,
+        "Baterija":"3-ćelije Lithium Ion (Li-Ion)" ,
+        "OS":"Nema" ,
+        "Boja":"Crna" ,
+        "Masa":"2.1 kg" ,
+        "Rezolucija ":"1920x1080 piksela" ,
+        "TouchScreen":"Ne" ,
+        "jezgara":"2 jezgra" }
+    ]
+  }
+]

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="sr-Latn">
+<head>
+  <meta charset="utf-8">
+  <title>Odbojkaški savez Novog Sada | Za volontere</title>
+  <link href="favicon.ico" rel="icon" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vežba izrade web sajta Odbojkaškog saveza Novog Sada">
+  <meta name="keywords" content="odbojka, utakmica, takmičenje, tim, Odbojkaški savez Novog Sada, juniori, kadeti, juniorke, kadetkinje, volonteri, rezultati, najnoviji rezultati">
+  <meta name="author" content="Marko J.">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="page-content za-volontere">
+    <div class="header">
+      <header>
+        <div class="strict-header">
+          <div class="central-view">
+            <div class="central-content clearfix">
+              <div class="logo header-logo">
+                <a href="index.html" title="Odbojkaški savez Novog Sada">
+                  <picture>
+                    <source srcset="images/logo.png" type="image/png">
+                    <img src="images/logo.png" alt="Logotip Odbojkaškog saveza Novog Sada">
+                  </picture>
+                </a>
+              </div>
+              <div class="site-title">
+                <p><span class="main-site-title">Odbojkaški savez Novog Sada</span><br><span class="owner-details">Maksima Gorkog 22<br>21000 Novi Sad<br>021/123-456</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-navigation">
+          <div class="central-view">
+            <div class="central-content">
+              <div class="normal-menu">
+                <nav>
+                  <ul>
+                    <li><a href="index.html">Početna strana</a></li><li><a href="klubovi.html">Klubovi</a></li><li><a href="takmicenja.html">Takmičenja</a></li><li class="active-nav-link"><a href="za-volontere.html">Za volontere</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+    <div class="page-middle">
+      <div class="central-view">
+        <div class="central-content clearfix">
+          <div class="main">
+            <main>
+              <div class="main-content">
+                <h1>Prijava za volontiranje</h1>
+                <form method="post" target="handle-form.php">
+                  <div class="input-block text-input-block clearfix">
+                    <label for="first-name">Ime:</label><input type="text" id="first-name" name="first-name" placeholder="Petar">
+                  </div>
+                  <div class="input-block text-input-block clearfix">
+                    <label for="last-name">Prezime:</label><input type="text" id="last-name" name="last-name" placeholder="Petrović">
+                  </div>
+                  <div class="input-block radio-block">
+                    <label for="male">Muško</label><input type="radio" id="male" value="male" name="gender"><br><label for="female">Žensko</label><input type="radio" id="female" value="female" name="gender">
+                  </div>
+                  <div class="input-block text-input-block clearfix">
+                    <label for="email">E-mejl:</label><input type="text" id="last-name" name="last-name" placeholder="primer@gmail.com">
+                  </div>
+                  <div class="input-block text-input-block clearfix">
+                    <label for="phone">Broj telefona:</label><input type="text" id="phone" name="phone">
+                  </div>
+                  <div class="input-block">
+                    <label for="role">Izbor uloge za koju se volonter prijavljuje:</label><br>
+                    <select id="role" name="role">
+                      <option value="1">Vodič</option>
+                      <option value="2">Zapisničar</option>
+                      <option value="3">Sakupljač lopti</option>
+                    </select>
+                  </div>
+                  <div class="input-block">
+                    <label for="bio">Kratka biografija:</label><br><textarea id="bio" name="bio" rows="15" placeholder="Unesite kratku biografiju..."></textarea>
+                  </div>
+                  <div class="input-block">
+                    <input class="std-button" type="submit" value="Pošalji"><input class="std-button" type="reset" value="Obriši polja">
+                  </div>
+                </form>
+              </div>
+            </main>
+          </div>
+          <div class="aside">
+            <aside>
+              <div class="aside-content">
+                <h2>Informacije o takmičenjima</h2>
+                <ul>
+                  <li>Lorem ipsum dolor sit turnir u Novom Sadu 19.10.2018. u 19h, OK Partizan</li>
+                  <li>Lorem ipsum dolor sit turnir u Beogradu 19.10.2018. u 19h, OK Crvena Zvezda</li>
+                  <li>Lorem ipsum dolor sit turnir u Novom Sadu 21.11.2018. u 19h, OK Vojvodina</li>
+                  <li>Lorem ipsum dolor sit turnir u Novom Sadu 27.11.2018. u 19h, OK Partizan</li>
+                </ul>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <footer>
+        <div class="central-view">
+          <div class="central-content">
+            <div class="author-info">
+              <p class="author-info">Izrada veb-sajta: Marko Jovanović, .NET kurs Novi Sad, 2018. godine</p>
+            </div>
+            <div class="footer-links normal-menu">
+              <nav>
+                <ul>
+                  <li><a href="klubovi.html">Klubovi</a></li>
+                  <li><a href="takmicenja.html">Takmičenja</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <script src="js/main.js" type="text/javascript"></script>
+</body>
+</html>

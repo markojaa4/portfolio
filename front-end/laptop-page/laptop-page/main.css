@@ -1,0 +1,71 @@
+html, body, h1, h2, p {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  font-weight: normal;
+}
+body {
+  font-family: calibri;
+}
+main {
+  width: 50%;
+  margin: 0 auto;
+  padding: 100px 0 140px;
+}
+h1 {
+  font-size: 28px;
+  padding-bottom: 15px;
+}
+h2 {
+  background-color: #336699;
+  font-size: 32px;
+  padding: 18px 7px;
+  font-style: italic;
+  color: white;
+  letter-spacing: 1px;
+}
+.price {
+  color: #336699;
+  text-align: right;
+  font-size: 15px;
+  padding-top: 1px;
+}
+.description {
+  padding: 12px 0 38px;
+  font-size: 15px;
+  line-height: 18px;
+}
+table, caption {
+  text-align: left;
+}
+caption {
+  color: #336699;
+  font-style: italic;
+  font-size: 14px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+}
+table {
+  border-top: 2px solid black;
+  width: 100%;
+  font-size: 16px;
+}
+th::first-letter {
+  text-transform: capitalize;
+}
+td, th {
+  border-bottom: 1px solid black;
+  padding: 4px 2px 8px;
+}
+th:first-of-type {
+  text-align: center;
+  width: 30%;
+  box-sizing: border-box;
+}
+@media (max-width: 660px) {
+  main {
+    width: 86%;
+  }
+}

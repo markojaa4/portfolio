@@ -1,0 +1,385 @@
+html, p, h1, h2, h3 {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  margin: 0;
+}
+html {
+  font-family: helvetica, sans-serif;
+}
+body {
+  margin: 0;
+  padding: 20px 20px 0;
+}
+img {
+  border: none;
+}
+h1 {
+  text-align: center;
+  padding: 50px 0;
+}
+.clearfix {
+  overflow: auto;
+}
+.central-view, .klubovi .page-middle .central-view {
+  padding: 0 3%;
+}
+.page-middle .central-view {
+  padding-right: 0;
+}
+.header, .footer {
+  background-color: #336699;
+  color: white;
+}
+.strict-header {
+  text-align: center;
+  padding: 10px 0;
+}
+.header-logo {
+  width: 100px;
+  float: left;
+}
+.logo {
+  display: inline-block;
+  width: 100px;
+  vertical-align: top;
+}
+.logo a {
+  display: block;
+  width: 100%;
+}
+.logo picture {
+  display: block;
+  width: 100%;
+}
+.logo img {
+  display: block;
+  width: 100%;
+}
+.site-title {
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  line-height: 22px;
+  padding-top: 10px;
+}
+.main-site-title {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 14px;
+}
+.site-title .owner-details {
+  font-style: italic;
+}
+.normal-menu ul, .aside ul {
+  list-style-type: none;
+  padding: 0;
+}
+.main-navigation {
+  text-align: center;
+  padding: 10px;
+}
+.main-navigation li {
+  display: inline-block;
+  margin-right: 3%;
+}
+.main-navigation li:last-of-type {
+  margin-right: 0;
+}
+.main-navigation a {
+  text-decoration: none;
+  display: block;
+  background-color: #295178;
+  padding: 8px 15px;
+  color: white;
+  border-radius: 10px;
+  transition: background-color .4s ease;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: -2px -2px 3px black inset;
+}
+.main-navigation a:focus, .main-navigation a:hover {
+  background-color: #4689cc;
+}
+.main-navigation a:active {
+  box-shadow: -1px -1px 1px black inset;
+}
+.main-navigation .active-nav-link a {
+  background-color: #4689cc;
+}
+.footer {
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.footer-links {
+  margin-top: 30px;
+}
+.footer-links li {
+  display: inline-block;
+  margin-right: 1%;
+}
+.footer-links li:last-of-type {
+  margin-right: 0;
+}
+.footer-links a {
+  color: white;
+}
+.footer-links a:focus, .footer-links a:hover {
+  text-decoration: none;
+}
+.footer-links a:active {
+  position: relative;
+  top: 2px;
+}
+.main, .aside {
+  display: inline-block;
+  vertical-align: top;
+}
+.main {
+  width: 60%;
+}
+.klubovi .main {
+  width: 100%;
+}
+.main-content {
+  padding-bottom: 40px;
+}
+.aside {
+  float: right;
+  width: 35%;
+  margin: 138px 0 30px;
+  background-color: #eeeedd;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.aside h2 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.aside li {
+  padding-bottom: 20px;
+}
+.article {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.article h2 {
+  padding-bottom: 20px;
+}
+.club-logo {
+  width: 86px;
+}
+.club-info {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 35px;
+}
+.klubovi .article {
+  border-bottom: 3px solid #ccb;
+}
+.klubovi .article:last-of-type {
+  border-bottom: 0;
+}
+.takmicenja .main {
+  width: 65%;
+}
+.male h2 {
+  color: #336699;
+}
+.female h2 {
+  color: #b83a2c;
+}
+.takmicenja .aside {
+  text-align: center;
+  width: 27%;
+}
+.takmicenja .collapse-part {
+  width: 60%;
+}
+.male .collapse-button, .takmicenja .male tbody tr:nth-of-type(2n + 1) {
+  background-color: #336699;
+}
+.female .collapse-button, .takmicenja .female tbody tr:nth-of-type(2n + 1) {
+  background-color: #b83a2c;
+}
+.collapse-button {
+  margin: 10px 0 0 0;
+  padding: 10px;
+  width: 100%;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  border-radius: 10px 10px 0 0;
+  transition: background-color .4s ease;
+  font-weight: bold;
+}
+.male .collapse-button:focus, .male .collapse-button:hover, .male table {
+  background-color: #4689cc;
+}
+.female .collapse-button:focus, .female .collapse-button:hover, .female table {
+  background-color: #e84533;
+}
+.takmicenja table {
+  width: 100%;
+  color: white;
+  border-radius: 0 0 10px 10px;
+  border-collapse: collapse;
+}
+.takmicenja th {
+  text-align: left;
+}
+.takmicenja th, .takmicenja td {
+  padding: 3px 3px 3px 7px;
+}
+.za-volontere form {
+  width: 70%;
+}
+.za-volontere .input-block {
+  margin: 30px 0;
+}
+.za-volontere .text-input-block label {
+  display: inline-block;
+  margin-top: 7px;
+}
+.za-volontere input[type="text"] {
+  float: right;
+  width: 50%;
+  border: 2px solid #336699;
+  border-radius: 6px;
+  padding: 3px;
+}
+.za-volontere input[type="radio"] {
+  margin: 0 0 10px 10px;
+}
+.za-volontere input[type="radio"]:last-of-type {
+  margin-bottom: 0;
+}
+.za-volontere .radio-block {
+  border: 2px solid #336699;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-align: right;
+}
+.za-volontere select {
+  margin-top: 5px;
+}
+.za-volontere textarea {
+  margin-top: 5px;
+  width: 100%;
+  border: 2px solid #336699;
+  border-radius: 6px;
+  padding: 3px;
+}
+.std-button {
+  margin: 0;
+  padding: 15px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  border-radius: 10px;
+  transition: background-color .4s ease;
+  font-weight: bold;
+  background-color: #336699;
+}
+.std-button:focus, .std-button:hover {
+   background-color: #4689cc;
+}
+.std-button:active {
+  background-color: #295178;
+}
+.za-volontere input[type="submit"] {
+  margin-right: 10px;
+}
+@media (max-width: 719px) {
+  .page-middle .central-view {
+    padding-right: 3%;
+  }
+  .main, .aside, .takmicenja .main, .takmicenja .aside {
+    display: block;
+    width: 100%;
+    float: none;
+  }
+  .page-middle .central-content.clearfix {
+    overflow: visible;
+  }
+  .aside {
+    margin-top: 0;
+  }
+  .takmicenja .collapse-part {
+    width: 100%;
+  }
+}
+@media (max-width: 850px) {
+  .takmicenja table {
+    font-size: 14px;
+  }
+}
+@media (max-width: 555px) {
+  .header-logo {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+  .header-logo a {
+    display: inline-block;
+    width: 90px;
+  }
+  .site-title {
+    display: block;
+    text-align: center;
+  }
+  .main-navigation li {
+    display: block;
+    margin: 0;
+  }
+  .klubovi .main {
+    text-align: center;
+  }
+  .klubovi .page-middle .logo {
+    display: block;
+    width: 100%;
+  }
+  .klubovi .page-middle .logo picture, .klubovi .page-middle  .logo img {
+    width: 80px;
+    display: inline-block;
+  }
+  .club-info {
+    margin: 10px 0 0;
+    display: block;
+  }
+  .takmicenja td, .takmicenja th {
+    height: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .za-volontere form {
+    width: 100%;
+  }
+  .za-volontere .input-block.clearfix {
+    overflow: visible;
+  }
+  .za-volontere input[type="text"] {
+    display: block;
+    float: none;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .za-volontere textarea {
+    box-sizing: border-box;
+  }
+  .za-volontere input[type="submit"] {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .std-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+  }
+}

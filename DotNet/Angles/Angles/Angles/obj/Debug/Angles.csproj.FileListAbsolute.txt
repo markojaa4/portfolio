@@ -1,0 +1,7 @@
+D:\BeginningCSharp7\ZaKurs\SaKursa\Exercise09\Angles\Angles\bin\Debug\Angles.exe.config
+D:\BeginningCSharp7\ZaKurs\SaKursa\Exercise09\Angles\Angles\bin\Debug\Angles.exe
+D:\BeginningCSharp7\ZaKurs\SaKursa\Exercise09\Angles\Angles\bin\Debug\Angles.pdb
+D:\BeginningCSharp7\ZaKurs\SaKursa\Exercise09\Angles\Angles\obj\Debug\Angles.csprojAssemblyReference.cache
+D:\BeginningCSharp7\ZaKurs\SaKursa\Exercise09\Angles\Angles\obj\Debug\Angles.csproj.CoreCompileInputs.cache
+D:\BeginningCSharp7\ZaKurs\SaKursa\Exercise09\Angles\Angles\obj\Debug\Angles.exe
+D:\BeginningCSharp7\ZaKurs\SaKursa\Exercise09\Angles\Angles\obj\Debug\Angles.pdb
