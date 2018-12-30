@@ -135,7 +135,7 @@ namespace GetSetEtc
             }
             public override int GetHashCode()
             {
-                return 0;
+                return Second + Minute + Degree;
             }
             public static bool operator !=(Angle alpha, Angle beta)
             {
