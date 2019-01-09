@@ -17,10 +17,10 @@ namespace GetSetEtc
             int second;
             public Angle(int d, int m, int s)
             {
+                ValidifyAngle(d, m, s);
                 degree = d;
                 minute = m;
                 second = s;
-                ValidifyAngle();
             }
             public int Second
             {
@@ -30,8 +30,8 @@ namespace GetSetEtc
                 }
                 set
                 {
+                    ValidifyAngle(degree, minute, value);
                     second = value;
-                    ValidifyAngle();
                 }
             }
             public int Minute
@@ -42,8 +42,8 @@ namespace GetSetEtc
                 }
                 set
                 {
+                    ValidifyAngle(degree, value, second);
                     minute = value;
-                    ValidifyAngle();
                 }
             }
             public int Degree
@@ -54,39 +54,39 @@ namespace GetSetEtc
                 }
                 set
                 {
+                    ValidifyAngle(value, minute, second);
                     degree = value;
-                    ValidifyAngle();
                 }
             }
-            private void ValidifyAngle()
+            private void ValidifyAngle(int d, int m, int s)
             {
-                while (second > 59)
+                while (s > 59)
                 {
-                    minute++;
-                    second -= 60;
+                    m++;
+                    s -= 60;
                 }
-                while (minute > 59)
+                while (m > 59)
                 {
-                    degree++;
-                    minute -= 60;
+                    d++;
+                    m -= 60;
                 }
-                while (second < 0)
+                while (s < 0)
                 {
-                    second += 60;
-                    minute--;
+                    s += 60;
+                    m--;
                 }
-                while (minute < 0)
+                while (m < 0)
                 {
-                    minute += 60;
-                    degree--;
+                    m += 60;
+                    d--;
                 }
-                if (degree < 0) throw new Exception("negative angle");
+                if (d < 0) throw new Exception("negative angle");
                 if
                 (
-                    degree > 360 ||
+                    d > 360 ||
                     (
-                        degree >= 360 &&
-                        (minute > 0 || second > 0)
+                        d >= 360 &&
+                        (m > 0 || s > 0)
                     )
                 ) throw new Exception("angle over 360 degrees");
             }
