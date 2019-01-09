@@ -302,14 +302,13 @@ namespace GetSetEtc
                 }
                 WriteLine($"Specify angle {AngleB} (0-360 degrees):");
                 Angle beta = GetAngle();
-                Angle result = alpha;
                 WriteLine(Consts.Separator);
                 Write($"The result of {AngleA} {oper.Symbol} {AngleB} is: ");
-                if (oper == "+") result += beta;
-                else if (oper == "-") result -= beta;
+                if (oper == "+") alpha += beta;
+                else if (oper == "-") alpha -= beta;
                 if (oper == "==") WriteLine(alpha == beta);
                 else if (oper == "!=") WriteLine(alpha != beta);
-                else WriteLine("\n" + result);
+                else WriteLine("\n" + alpha);
                 WriteLine(Consts.Separator);
             }
             catch (Exception e)
