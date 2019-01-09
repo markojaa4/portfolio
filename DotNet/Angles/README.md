@@ -1,3 +1,3 @@
 # Angles
 
-A .NET Framework console application that performs simple on angles.
+A .NET Framework console application that performs operations on angles.
