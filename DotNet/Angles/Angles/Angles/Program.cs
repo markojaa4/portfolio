@@ -30,7 +30,7 @@ namespace GetSetEtc
                 }
                 set
                 {
-                    ValidifyAngle(degree, minute, value);
+                    ValidifyAngle(Degree, Minute, value);
                     second = value;
                 }
             }
@@ -42,7 +42,7 @@ namespace GetSetEtc
                 }
                 set
                 {
-                    ValidifyAngle(degree, value, second);
+                    ValidifyAngle(Degree, value, Second);
                     minute = value;
                 }
             }
@@ -54,7 +54,7 @@ namespace GetSetEtc
                 }
                 set
                 {
-                    ValidifyAngle(value, minute, second);
+                    ValidifyAngle(value, Minute, Second);
                     degree = value;
                 }
             }
