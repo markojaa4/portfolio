@@ -1,0 +1,10 @@
+C:\CSharp\Kurs\01\FighterGame\FighterClient\obj\Debug\FighterClient.csprojAssemblyReference.cache
+C:\CSharp\Kurs\01\FighterGame\FighterClient\obj\Debug\FighterClient.csproj.CoreCompileInputs.cache
+C:\CSharp\Kurs\01\FighterGame\FighterClient\bin\Debug\FighterClient.exe.config
+C:\CSharp\Kurs\01\FighterGame\FighterClient\bin\Debug\FighterClient.exe
+C:\CSharp\Kurs\01\FighterGame\FighterClient\bin\Debug\FighterClient.pdb
+C:\CSharp\Kurs\01\FighterGame\FighterClient\bin\Debug\FighterLib.dll
+C:\CSharp\Kurs\01\FighterGame\FighterClient\bin\Debug\FighterLib.pdb
+C:\CSharp\Kurs\01\FighterGame\FighterClient\obj\Debug\FighterClient.csproj.CopyComplete
+C:\CSharp\Kurs\01\FighterGame\FighterClient\obj\Debug\FighterClient.exe
+C:\CSharp\Kurs\01\FighterGame\FighterClient\obj\Debug\FighterClient.pdb

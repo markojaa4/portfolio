@@ -1,0 +1,6 @@
+C:\CSharp\Kurs\01\FighterGame\FighterLib\obj\Debug\FighterLib.csprojAssemblyReference.cache
+C:\CSharp\Kurs\01\FighterGame\FighterLib\obj\Debug\FighterLib.csproj.CoreCompileInputs.cache
+C:\CSharp\Kurs\01\FighterGame\FighterLib\bin\Debug\FighterLib.dll
+C:\CSharp\Kurs\01\FighterGame\FighterLib\bin\Debug\FighterLib.pdb
+C:\CSharp\Kurs\01\FighterGame\FighterLib\obj\Debug\FighterLib.dll
+C:\CSharp\Kurs\01\FighterGame\FighterLib\obj\Debug\FighterLib.pdb
