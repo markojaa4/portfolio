@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="FighterLib.Attacker">
-    <Position X="11.25" Y="5.5" Width="1.5" />
+    <Position X="5" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAQ=</HashCode>
       <FileName>Attacker.cs</FileName>
@@ -9,7 +9,7 @@
     <Lollipop Orientation="Bottom" Position="0.1" />
   </Class>
   <Class Name="FighterLib.Computer" BaseTypeListCollapsed="true">
-    <Position X="0.75" Y="1.25" Width="1.5" />
+    <Position X="3.25" Y="14.25" Width="1.5" />
     <Compartments>
       <Compartment Name="Nested Types" Collapsed="false" />
     </Compartments>
@@ -20,23 +20,14 @@
         </TypeIdentifier>
       </Delegate>
     </NestedTypes>
-    <AssociationLine Name="Fighter" Type="FighterLib.IFighter" FixedFromPoint="true">
-      <Path>
-        <Point X="2.25" Y="1.688" />
-        <Point X="5.5" Y="1.688" />
-      </Path>
-    </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAACAAgAAACAAAIAAAQAAACAAAAAAAAAgAAAAAAAAAA=</HashCode>
       <FileName>Computer.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Fighter" />
-    </ShowAsAssociation>
-    <Lollipop Orientation="Bottom" Position="0.1" />
+    <Lollipop Position="0.1" />
   </Class>
   <Class Name="FighterLib.Defender">
-    <Position X="9" Y="5.5" Width="1.5" />
+    <Position X="1.75" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAQAQ=</HashCode>
       <FileName>Defender.cs</FileName>
@@ -44,41 +35,29 @@
     <Lollipop Orientation="Bottom" Position="0.1" />
   </Class>
   <Class Name="FighterLib.Fighter">
-    <Position X="11.25" Y="0.5" Width="1.5" />
-    <AssociationLine Name="Act" Type="FighterLib.Action" FixedToPoint="true">
-      <Path>
-        <Point X="11.25" Y="0.875" />
-        <Point X="10.5" Y="0.875" />
-      </Path>
-    </AssociationLine>
+    <Position X="5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAABAAABAAAgAQAAAEEAAARAIBAAQAAQAAAAQAAAEA=</HashCode>
       <FileName>FIghter.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Act" />
-    </ShowAsAssociation>
   </Class>
   <Class Name="FighterLib.Human" BaseTypeListCollapsed="true">
-    <Position X="3" Y="2" Width="1.5" />
+    <Position X="6.75" Y="14.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAASAAAAAACAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
       <FileName>Human.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Fighter" />
-    </ShowAsAssociation>
-    <Lollipop Orientation="Bottom" Position="0.1" />
+    <Lollipop Position="0.1" />
   </Class>
   <Class Name="FighterLib.Rnd">
-    <Position X="1.5" Y="7.75" Width="2" />
+    <Position X="2.75" Y="18.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Rnd.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="FighterLib.Swarmer">
-    <Position X="13.5" Y="5.5" Width="1.5" />
+    <Position X="8" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAQ=</HashCode>
       <FileName>Swarmer.cs</FileName>
@@ -86,40 +65,64 @@
     <Lollipop Orientation="Bottom" Position="0.1" />
   </Class>
   <Class Name="FighterLib.UsageException">
-    <Position X="4.5" Y="8" Width="2.5" />
+    <Position X="0.5" Y="0.5" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>UsageException.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Interface Name="FighterLib.IFighter">
-    <Position X="5.5" Y="1.25" Width="2.75" />
-    <AssociationLine Name="Act" Type="FighterLib.Action" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="7.562" Y="1.25" />
-        <Point X="7.562" Y="0.875" />
-        <Point X="9" Y="0.875" />
-      </Path>
-    </AssociationLine>
+    <Position X="4.25" Y="9.25" Width="2.75" />
     <AssociationLine Name="Style" Type="FighterLib.FightingStyle" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="7.562" Y="3.507" />
-        <Point X="7.562" Y="4.129" />
-        <Point X="9" Y="4.129" />
+        <Point X="6.75" Y="11.507" />
+        <Point X="6.75" Y="11.879" />
+        <Point X="8.75" Y="11.879" />
       </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.058" Y="0.039" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Action" Type="FighterLib.Ability" FixedFromPoint="true">
+      <Path>
+        <Point X="7" Y="10.438" />
+        <Point X="8.75" Y="10.438" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.037" Y="0.05" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Act" Type="FighterLib.Action" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.75" Y="9.25" />
+        <Point X="6.75" Y="8.684" />
+        <Point X="8.75" Y="8.684" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.131" Y="0.05" />
+      </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAgAQAAAAEAAARAABAAAAABAAAAQAAAEQ=</HashCode>
       <FileName>IFighter.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
+      <Property Name="Style" />
       <Property Name="Action" />
       <Property Name="Act" />
-      <Property Name="Style" />
     </ShowAsAssociation>
   </Interface>
   <Interface Name="FighterLib.IPlayer">
-    <Position X="3" Y="5" Width="1.5" />
+    <Position X="5" Y="12.75" Width="1.5" />
+    <AssociationLine Name="Fighter" Type="FighterLib.IFighter" ManuallyRouted="true">
+      <Path>
+        <Point X="5.594" Y="12.75" />
+        <Point X="5.594" Y="11.507" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.037" Y="0.758" />
+      </MemberNameLabel>
+    </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAACAAAAAACAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
       <FileName>IPlayer.cs</FileName>
@@ -129,21 +132,21 @@
     </ShowAsAssociation>
   </Interface>
   <Enum Name="FighterLib.Ability">
-    <Position X="9" Y="1.75" Width="1.5" />
+    <Position X="8.75" Y="9.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAIAAAAAAAAAAAAAAQAA=</HashCode>
       <FileName>Ability.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="FighterLib.FightingStyle">
-    <Position X="9" Y="3.25" Width="1.5" />
+    <Position X="8.75" Y="11.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAEAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAAAAAA=</HashCode>
       <FileName>FightingStyle.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Delegate Name="FighterLib.Action">
-    <Position X="9" Y="0.5" Width="1.5" />
+    <Position X="8.75" Y="8.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Action.cs</FileName>
