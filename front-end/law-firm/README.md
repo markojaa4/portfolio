@@ -2,7 +2,7 @@
 
 Completed on 17th November 2017.
 
-A website I worked on while working for the company iPOINT.
+A website I worked on while working for the company Ipoint.
 
 I was given an old design and my job was to build it from the ground up according to modern practices and the company standards, and also implement a WordPress back-end.
 
