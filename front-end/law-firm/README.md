@@ -4,7 +4,9 @@ Completed on 17th November 2017.
 
 A website I worked on while working for the company Ipoint.
 
-I was given an old design and my job was to re-build it from the ground up according to modern practices and the company standards, and also implement a WordPress back-end, while preserving the exact same design.
+I was given an old design and my job was to re-build it from the ground up according to modern practices and the company standards, and also implement a WordPress back-end.
+
+The old design was completely preserved.
 
 It is fully responsive, touch-screen friendly and tested thoroughly on Chrome, Firefox, Opera, Safari, Edge and Internet Explorer down to IE8.
 
