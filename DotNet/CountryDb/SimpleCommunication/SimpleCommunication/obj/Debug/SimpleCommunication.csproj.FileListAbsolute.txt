@@ -1,0 +1,9 @@
+C:\CSharp\DatabaseClient\SimpleCommunication\SimpleCommunication\bin\Debug\SimpleCommunication.exe.config
+C:\CSharp\DatabaseClient\SimpleCommunication\SimpleCommunication\bin\Debug\SimpleCommunication.exe
+C:\CSharp\DatabaseClient\SimpleCommunication\SimpleCommunication\bin\Debug\SimpleCommunication.pdb
+C:\CSharp\DatabaseClient\SimpleCommunication\SimpleCommunication\bin\Debug\System.Data.SqlClient.dll
+C:\CSharp\DatabaseClient\SimpleCommunication\SimpleCommunication\obj\Debug\SimpleCommunication.csprojAssemblyReference.cache
+C:\CSharp\DatabaseClient\SimpleCommunication\SimpleCommunication\obj\Debug\SimpleCommunication.csproj.CoreCompileInputs.cache
+C:\CSharp\DatabaseClient\SimpleCommunication\SimpleCommunication\obj\Debug\SimpleCommunication.csproj.CopyComplete
+C:\CSharp\DatabaseClient\SimpleCommunication\SimpleCommunication\obj\Debug\SimpleCommunication.exe
+C:\CSharp\DatabaseClient\SimpleCommunication\SimpleCommunication\obj\Debug\SimpleCommunication.pdb
