@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Solar System</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+  <link rel="stylesheet" href="style/main.css">
+  <link id="specific-style" rel="stylesheet" href="style/mars.css">
+</head>
+<body>
+  <!-- space background -->
+  <canvas id="canvas">
+  </canvas>
+
+  <div class="status-bar">
+    <div>
+      <p>Currently orbiting Mars<span>...</span></p>
+    </div>
+  </div>
+
+  <main class="container-fluid">
+    <!-- main row, two columns: planet and control -->
+    <div class="row">
+      <!-- column for planet image and info -->
+      <div class="col-lg-10 col-sm-9">
+        <img id="planet-img" class="img-fluid" src="assets/mars.png" alt="Planet Mars">
+        <div class="row">
+          <!-- extra container for spacing control -->
+          <div class="col-lg-8 col-sm-10">
+
+              <div class="planet-info row">
+                <div class="col-sm-6">
+                  <dl>
+                    <div>
+                      <dt>Radius:</dt><dd>2,106 mi</dd>
+                    </div>
+                    <div>
+                      <dt>Length of day:</dt><dd>1d 0h 40m</dd>
+                    </div>
+                    <div>
+                      <dt>Gravity:</dt><dd>3.711 m/s<sup>2</sup></dd>
+                    </div>
+                  </dl>
+                </div>
+                <div class="col-sm-6">
+                  <dl>
+                    <div>
+                      <dt>Distance from Sun:</dt><dd>141.6 million mi</dd>
+                    </div>
+                    <div>
+                      <dt>Orbital period:</dt><dd>687 days</dd>
+                    </div>
+                    <div>
+                      <dt>Moons:</dt><dd>Phobos, Deimos</dd>
+                    </div>
+                  </dl>
+                </div>
+              </div>
+
+          </div>
+          <!-- space on the other side of the planet info column -->
+          <div class="col-lg-4 col-sm-2">
+          </div>
+        </div>
+      </div>
+
+      <!-- control coulmn -->
+      <div id="control-column" class="col-lg-2 col-sm-3">
+        <nav class="solar-nav navbar">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="https://en.wikipedia.org/wiki/Solar_System" target="_blank">
+                <img src="assets/logo.svg" alt="Modest Logo">
+              </a>
+            </div>
+            <div class="nav navbar-nav">
+            <ul class="nav nav-pills nav-stacked">
+              <li><button type="button">Mercury</button></li>
+              <li><button type="button">Venus</button></li>
+              <li><button type="button">Earth</button></li>
+              <li><button class="active" type="button">Mars<span class="sr-only">(current)</span></button></li>
+              <li><button type="button">Jupiter</button></li>
+              <li><button type="button">Saturn</button></li>
+              <li><button type="button">Uranus</button></li>
+              <li><button type="button">Neptune</button></li>
+            </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="right-aligning-wrapper">
+          <button id="mute" type="button" aria-label="Mute"><span class="glyphicon glyphicon-volume-off" aria-hidden="true"></span></button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <audio id="bg-music" loop="loop">
+    <source src="assets/bg-music.mp3" type="audio/mp3">
+    <source src="assets/bg-music.wav" type="audio/wav">
+  </audio>
+
+  <script
+			  src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script>
+  <script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+  <script src="script/main.js"></script>
+</body>
+</html>
