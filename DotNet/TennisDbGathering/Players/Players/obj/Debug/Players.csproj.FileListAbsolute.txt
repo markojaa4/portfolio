@@ -1,0 +1,7 @@
+C:\CSharp\DatabaseClient\Players\Players\bin\Debug\Players.exe.config
+C:\CSharp\DatabaseClient\Players\Players\bin\Debug\Players.exe
+C:\CSharp\DatabaseClient\Players\Players\bin\Debug\Players.pdb
+C:\CSharp\DatabaseClient\Players\Players\obj\Debug\Players.csprojAssemblyReference.cache
+C:\CSharp\DatabaseClient\Players\Players\obj\Debug\Players.csproj.CoreCompileInputs.cache
+C:\CSharp\DatabaseClient\Players\Players\obj\Debug\Players.exe
+C:\CSharp\DatabaseClient\Players\Players\obj\Debug\Players.pdb
