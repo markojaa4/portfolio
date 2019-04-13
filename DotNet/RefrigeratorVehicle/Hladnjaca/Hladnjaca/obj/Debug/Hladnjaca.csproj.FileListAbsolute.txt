@@ -1,0 +1,9 @@
+C:\CSharp\Zavrsni\Hladnjaca\Hladnjaca\bin\Debug\Hladnjaca.exe.config
+C:\CSharp\Zavrsni\Hladnjaca\Hladnjaca\bin\Debug\Hladnjaca.exe
+C:\CSharp\Zavrsni\Hladnjaca\Hladnjaca\bin\Debug\Hladnjaca.pdb
+C:\CSharp\Zavrsni\Hladnjaca\Hladnjaca\obj\Debug\Hladnjaca.csprojAssemblyReference.cache
+C:\CSharp\Zavrsni\Hladnjaca\Hladnjaca\obj\Debug\Hladnjaca.csproj.CoreCompileInputs.cache
+C:\CSharp\Zavrsni\Hladnjaca\Hladnjaca\obj\Debug\Hladnjaca.exe
+C:\CSharp\Zavrsni\Hladnjaca\Hladnjaca\obj\Debug\Hladnjaca.pdb
+C:\CSharp\Zavrsni\Hladnjaca\Hladnjaca\bin\Debug\System.Data.SqlClient.dll
+C:\CSharp\Zavrsni\Hladnjaca\Hladnjaca\obj\Debug\Hladnjaca.csproj.CopyComplete
