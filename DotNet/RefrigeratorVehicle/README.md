@@ -12,6 +12,6 @@ The app is aimed at local refrigerator vehicle businesses. This is the user stor
 >* View fruit purchases
 >* View saldo for a specified exchange center
 >
->Each use case is to be logged to a local file
+>Each use case is to be logged to a local file.
 
 The source code was made for a local audience.
