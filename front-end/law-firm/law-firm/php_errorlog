@@ -1,9 +1,0 @@
-[16-Nov-2017 05:51:03 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home/ipoint07/public_html/mrkadvocates-wp/wp-content/themes/mrkadvocates/functions.php:32
-Stack trace:
-#0 {main}
-  thrown in /home/ipoint07/public_html/mrkadvocates-wp/wp-content/themes/mrkadvocates/functions.php on line 32
-[16-Nov-2017 06:53:22 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home/ipoint07/public_html/mrkadvocates-wp/wp-content/themes/mrkadvocates/functions.php:76
-Stack trace:
-#0 {main}
-  thrown in /home/ipoint07/public_html/mrkadvocates-wp/wp-content/themes/mrkadvocates/functions.php on line 76
-[17-Nov-2017 01:15:02 CST6CDT] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/ipoint07/public_html/mrkadvocates-wp/wp-content/themes/mrkadvocates/functions.php on line 489
